@@ -9,7 +9,6 @@ import Kadan from "../Image/kadan.png";
 import Sousaku from "../Image/sousaku.png"; 
 import Your from "../Image/your.png"; 
 
-
 const HomePage = () => {
 return (
   <main id="main">
@@ -163,8 +162,8 @@ return (
       <div className="profile">
         <div className="icon-wrapper">
           <h3 className="name animated">
-            <p className="name-main">N-i-ke</p>
-            <p className="name-sub">N-i-ke</p>
+            <p className="name-main">NIK</p>
+            <p className="name-sub">NIK</p>
           </h3>
         </div>
         <div className="about-wrapper">
@@ -178,9 +177,6 @@ return (
             <br />
             <i className="fa-regular fa-dot-circle"></i>
             東京育ち、東京在住
-            <br />
-            <i className="fa-regular fa-dot-circle"></i>
-            趣味はテニスとハシゴ酒です
             <br />
           </p>
           <h4 className="animated">

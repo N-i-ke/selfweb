@@ -43,7 +43,7 @@ function Header() {
           <span></span>
           <span></span>
         </div>
-        <h1 class="site-title">N-i-ke's Portfolio</h1>
+        <h1 class="site-title">NIK Portfolio</h1>
         <h4 class="sub-site-title">クリエイティブなWeb制作をお届けします。</h4>
         <div id="mask"></div>
       </header>

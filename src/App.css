@@ -601,4 +601,261 @@ footer
   vertical-align: middle;
   font-family: "Quicksand", sans-serif;
 }
+
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 1000px) {
+  .carousel {
+    /* 400x700の領域からはみ出た部分は非表示 */
+    width: 525px;
+    height: 600px;
+  }
+  .slides li {
+    float: left;
+    width: 525px;
+    height: 600px;
+  }
+  .slides-text {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5%;
+    margin: 0;
+  }
+  #work .work-item {
+    width: 50%;
+  }
+  #about .icon-wrapper .name .name-main {
+    font-size: 2rem;
+  }
+  #skill .fab {
+    font-size: 4rem;
+  }
+  #contact .sub-sec-title {
+    left: 40%;
+  }
+}
+@media screen and (max-width: 666px) {
+  #work .work-item {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  section {
+    padding-top: 50px;
+  }
+  .sec-title {
+    font-size: 4rem;
+  }
+  .sub-sec-title {
+    font-size: 1.4rem;
+  }
+  #about .profile {
+    display: inline-block;
+  }
+  #about .icon-wrapper {
+    /*width:;*/
+  }
+  #about .about-wrapper {
+    width: 75%;
+    margin-right: 0;
+    float: right;
+    margin-top: 30px;
+  }
+  #about .icon-wrapper .name .name-main {
+    font-size: 2rem;
+  }
+  #about .about-wrapper h4 {
+    margin: 0;
+  }
+  #contact .contact-wrapper form {
+    max-width: 300px;
+  }
+  .slides li img {
+    width: 480px;
+    height: 260px;
+  }
+  .carousel {
+    /* 400x700の領域からはみ出た部分は非表示 */
+    width: 480px;
+    height: 550px;
+  }
+  .slides li {
+    float: left;
+    width: 480px;
+    height: 550px;
+  }
+  .slides-text {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5%;
+    margin: 0;
+  }
+  #skill .skill-wrap {
+    width: 80%;
+    padding: 10px 20px;
+    margin: 0 auto;
+    font-size: 0.7rem;
+  }
+  #skill .fab {
+    font-size: 3rem;
+  }
+  #service {
+    padding-bottom: 80px;
+  }
+  #service .service-wrapper {
+    margin-right: 15%;
+    margin-left: 15%;
+    display: block;
+    font-size: 0.7rem;
+  }
+  #service .service-wrap-right {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-right: 0;
+    padding: 20px;
+  }
+  #service .service-wrap-left {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-right: 0;
+    padding: 20px;
+  }
+  #service .sub-sec-title {
+    left: 35%;
+  }
+  #contact .sub-sec-title {
+    left: 30%;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 0.8rem;
+    line-height: 1.6;
+  }
+  .site-title {
+    font-size: 2rem;
+  }
+  .sub-site-title {
+    font-size: 0.3rem;
+  }
+  .sec-title {
+    font-size: 4rem;
+  }
+  section {
+    padding-top: 50px;
+  }
+  .sub-sec-title {
+    font-size: 1.4rem;
+  }
+  .slides li img {
+    width: 280px;
+    height: 160px;
+    padding: 0;
+  }
+  .carousel {
+    /* 400x700の領域からはみ出た部分は非表示 */
+    width: 280px;
+    height: 430px;
+  }
+  .slides li {
+    float: left;
+    width: 280px;
+    height: 430px;
+  }
+  .slides-text {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5%;
+    margin: 0;
+  }
+  #work .work-wrapper ul {
+    padding: 50px 0px;
+  }
+  #skill .skill-wrap {
+    width: 75%;
+    padding: 10px 10px;
+    margin: 0 auto;
+    font-size: 0.5rem;
+  }
+  #skill .skill-item {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  #skill .fab {
+    font-size: 2rem;
+  }
+  #about .sub-sec-title {
+    left: 40%;
+  }
+  #about .profile {
+    display: inline-block;
+  }
+  #about .icon-wrapper {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #about .icon-wrapper img {
+    width: 240px;
+    height: 275px;
+  }
+  #about .icon-wrapper h3 {
+    margin: 0;
+  }
+  #about .about-wrapper h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  #about .icon-wrapper .name .name-main {
+    font-size: 1rem;
+    margin-right: 5px;
+  }
+  #about .icon-wrapper .name .name-sub {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  #about .about-wrapper {
+    width: 75%;
+    margin-right: 0;
+    float: right;
+    margin-top: 30px;
+  }
+  #about .about-wrapper p {
+    font-size: 0.3rem;
+  }
+  #service {
+    padding-bottom: 80px;
+  }
+  #service .service-wrapper {
+    margin-right: 15%;
+    margin-left: 15%;
+    display: block;
+    font-size: 0.7rem;
+  }
+  #service .service-wrap-right {
+    width: 100%;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 15px;
+  }
+  #service .service-wrap-left {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-right: 0;
+    padding: 15px;
+  }
+  #service .sub-sec-title {
+    left: 35%;
+  }
+  #contact .contact-wrapper form {
+    max-width: 300px;
+  }
+  #contact .sub-sec-title {
+    left: 25%;
+  }
+}
 /*# sourceMappingURL=App.css.map */
