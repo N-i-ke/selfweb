@@ -22,6 +22,17 @@ export default class Video extends Component {
           controls={true}
           width="100%"
           height="100vh"
+          config={{
+            file: {
+              attributes: {
+                style: {
+                  width: "100%",
+                  height: "100vh",
+                  objectFit: "cover"
+                }
+              }
+            }
+          }}
         />
       </div>
     );
