@@ -41,19 +41,19 @@ function Contact() {
                 <label for="name">NAME:</label>
               </dt>
               <dd>
-                <input id="name" type="text" />
+                <input id="name" type="text" name="to_name"/>
               </dd>
               <dt>
                 <label for="mail">YOUR MAIL:</label>
               </dt>
               <dd>
-                <input id="mail" type="text" />
+                <input id="mail" type="text" name="to_email"/>
               </dd>
               <dt>
                 <label for="message">MESSAGE:</label>
               </dt>
               <dd>
-                <textarea id="message" name="your-message"></textarea>
+                <textarea id="message" name="message"></textarea>
               </dd>
             </dl>
             <input id="button" type="submit" />
